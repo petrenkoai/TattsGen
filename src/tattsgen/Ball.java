@@ -6,7 +6,7 @@ import javafx.beans.property.SimpleIntegerProperty;
 
 /**
  *
- * @author alexey
+ * @author petrenkoai
  */
 public class Ball {
     

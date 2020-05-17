@@ -19,7 +19,4 @@ public class ArchiveDraw extends Draw{
         this.drawNumber = drawNumber;
         this.drawDate = drawDate;
     }
-    
-    
-    
 }

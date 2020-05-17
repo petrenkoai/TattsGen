@@ -3,7 +3,6 @@ package tattsgen;
 
 import javafx.beans.property.StringProperty;
 
-
 public class Draw {
 
     Ball firstBall;
@@ -68,8 +67,6 @@ public class Draw {
     public int getSecondSupBall() {
         return secondSupBall.getNumber();
     }
-    
-  
     
     public int[] getNumbers(){
         int[] drawNumbers = new int[6];
