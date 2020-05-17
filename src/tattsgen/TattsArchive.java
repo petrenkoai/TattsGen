@@ -182,7 +182,7 @@ public class TattsArchive {
         String cvsSplitBy = ",";
         int TattsArchiveRowNumber = 0;
         int TattsArchiveRows = this.getNumberOfDraws(); //Кол-во строк в архиве
-        int[][] TattsArchiveArray = new int[TattsArchiveRows][6];
+        int[][] TattsArchiveArray = new int[TattsArchiveRows + 1][6];
         try {
 
             br = new BufferedReader(new FileReader(this.tattsArchiveFile));

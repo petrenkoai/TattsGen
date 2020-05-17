@@ -152,7 +152,7 @@ public class Program extends Application {
 
         TextField numbersTextFiled = new TextField();
         numbersTextFiled.setPrefWidth(600);
-        numbersTextFiled.setPromptText("Input 22 numbers");
+        numbersTextFiled.setPromptText("Input 22 numbers(not working now)");
         grid.add(numbersTextFiled, 0, 2, 2, 1);
 
         buttonGenerate.setPrefSize(200, 20);
